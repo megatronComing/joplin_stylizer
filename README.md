@@ -1,9 +1,5 @@
-# required modules:
-googletrans
-pyqt5
-
 # joplin_stylizer
-stylize a conversation text for displaying in Joplin with difference color for each speaker
+stylize a conversation text for displaying in Joplin with difference colors for each speaker
 
 Description: The purpose of writing this program is for my own French learning. The program translates text, which can be in any language, into English and adds HTML styling to color the text differently for different speaking roles in Joplin.
 
@@ -23,3 +19,16 @@ the main window of the program:
 the stylized text displyed in Joplin:
 <img width="999" alt="image" src="https://github.com/megatronComing/joplin_stylizer/assets/114308295/ac4dd444-0385-4686-ad5e-6e8607f91148">
 
+# required modules:
+googletrans
+pyqt5
+
+# tested under
+python 3.11.3
+googletrans 4.0.0rc1
+pyqt 5.15.2
+macos Monterey 12.6.8
+
+caution: 
+Something is wrong with googletrans, DO NOT install it by executing "pip install googletrans"
+Install it by "pip install googletrans==4.0.0-rc1"
